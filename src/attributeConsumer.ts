@@ -1,17 +1,12 @@
-import { Contract } from './contract'
+import { Contract } from "./contract";
 
 export class AttributeConsumer {
-    constructor(
-        public consumerName: string,
-        public providerName: string
-    ) {
+  constructor(public consumerName: string, public providerName: string) {}
 
-    }
-
-    public getContract(): Contract {
-        return {
-            consumer: this.consumerName,
-            provider: this.providerName
-        }
-    }
+  public getContract(): Contract {
+    return {
+      consumer: this.consumerName,
+      provider: this.providerName,
+    };
+  }
 }

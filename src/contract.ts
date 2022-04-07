@@ -1,4 +1,4 @@
 export interface Contract {
-    consumer: string,
-    provider: string,
+  consumer: string;
+  provider: string;
 }

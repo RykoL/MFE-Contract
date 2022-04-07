@@ -5,6 +5,7 @@ module.exports = {
 	},
 	'extends': [
 		'eslint:recommended',
+        'prettier',
 		'plugin:@typescript-eslint/recommended'
 	],
 	'parser': '@typescript-eslint/parser',
@@ -15,22 +16,4 @@ module.exports = {
 	'plugins': [
 		'@typescript-eslint'
 	],
-	'rules': {
-		'indent': [
-			'error',
-			'tab'
-		],
-		'linebreak-style': [
-			'error',
-			'unix'
-		],
-		'quotes': [
-			'error',
-			'single'
-		],
-		'semi': [
-			'error',
-			'never'
-		]
-	}
 }
